@@ -1,0 +1,11 @@
+{
+    "name": "Missing.ink",
+    "short_name": "Missing.ink",
+    "icons": [{
+        "src": "logo.png",
+        "sizes": "512x512"
+    }],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "display": "fullscreen"
+}

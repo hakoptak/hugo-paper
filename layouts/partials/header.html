@@ -14,13 +14,18 @@
     <meta name="description" content="{{ .Site.Params.description }}">
     <meta name="author" content="{{ .Site.Author.name }}">
     {{- end }}
+    <!-- Google -->
+    <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="manifest.json">
+    <!-- Apple -->
+    <link rel="apple-touch-icon" href="logo.png">
+    <link rel="mask-icon" href="logo.svg" color="#000000">
     <!-- Styles -->
     <link href="{{ "an-old-hope.min.css" | absURL }}" rel="stylesheet">
     <link href="{{ "style.css" | absURL }}" rel="stylesheet">
     <link href="{{ "custom.css" | absURL }}" rel="stylesheet">
     <!-- Favicons -->
-    <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">
-    <link rel="icon" href="{{ "favicon.ico" | absURL }}">
+    <link rel="icon" href="favicon.svg">
     <!-- Generator -->
     {{- hugo.Generator }}
     <!-- RSS -->
