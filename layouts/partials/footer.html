@@ -7,8 +7,12 @@
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
 <script src="{{ "highlight.min.js" | absURL }}"></script>
+<script src="{{ "scroll-progress.min.js" | absURL }}"></script>
 <script>
   hljs.initHighlightingOnLoad();
+document.addEventListener("DOMContentLoaded", function (event) {
+		progressJS.start();
+});
 </script>
 </body>
 </html>

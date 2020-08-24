@@ -16,16 +16,17 @@
     {{- end }}
     <!-- Google -->
     <meta name="theme-color" content="#ffffff">
-    <link rel="manifest" href="manifest.json">
+    <link href="{{ "manifest.json" | absURL }}" rel="manifest">
     <!-- Apple -->
-    <link rel="apple-touch-icon" href="logo.png">
-    <link rel="mask-icon" href="logo.svg" color="#000000">
+    <link href="{{ "logo.png" | absURL }}" rel="apple-touch-icon">
+    <link href="{{ "logo.svg" | absURL }}" color="#000000" rel="mask-icon">
     <!-- Styles -->
     <link href="{{ "an-old-hope.min.css" | absURL }}" rel="stylesheet">
     <link href="{{ "style.css" | absURL }}" rel="stylesheet">
     <link href="{{ "custom.css" | absURL }}" rel="stylesheet">
+    <link href="{{ "scroll-progress.min.css" | absURL }}" rel="stylesheet">
     <!-- Favicons -->
-    <link rel="icon" href="favicon.svg">
+    <link href="{{ "favicon.svg" | absURL }}" rel="icon">
     <!-- Generator -->
     {{- hugo.Generator }}
     <!-- RSS -->
