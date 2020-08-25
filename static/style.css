@@ -9,9 +9,14 @@
 /* Missing.ink
 -------------------------------------------------- */
  
- .html {
+ html {
   margin-left: 3px;
   margin-right: 3px;
+ }
+
+ .cc {
+   width: 25%;
+   height: 25%;
  }
 
 /* Theme
